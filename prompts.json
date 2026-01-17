@@ -1,0 +1,67 @@
+{
+  "genread_paper":{
+    "generate": {
+            "head_verbalizer": "Generate a background document from Wikipedia to support or refute the statement.",
+            "verbalizer": "\n\n Statement: ",
+            "tail_verbalizer": "\n\n"
+    },
+    "read": {
+            "head_verbalizer": "\n\n claim: ",
+            "tail_verbalizer": " \n\n Is the claim true or false?"
+    }
+    }
+  ,
+
+  "version_1.0":{
+    "generate": {
+            "head_verbalizer": "Generate a background document from Wikipedia to support or refute the statement.",
+            "verbalizer": " statement: ",
+            "tail_verbalizer": ""
+    },
+    "read": {
+            "head_verbalizer": " claim: ",
+            "tail_verbalizer": " Is the claim true or false?"
+    }
+   }
+
+  ,
+
+  "version_1.1":{
+    "generate": {
+            "head_verbalizer": "Generate a background document to support or refute the following statement: ",
+            "verbalizer": "",
+            "tail_verbalizer": ""
+    },
+    "read": {
+            "head_verbalizer": " claim: ",
+            "tail_verbalizer": " Is the claim true or false?"
+    }
+}
+
+  ,
+
+  "fact_verification":{
+    "generate": {
+            "head_verbalizer": "Generate a background document to support or refute the following statement: ",
+            "verbalizer": "",
+            "tail_verbalizer": ""
+    },
+    "read": {
+            "head_verbalizer": " Statement: ",
+            "tail_verbalizer": " Is the statement true or false?"
+    }
+},
+
+  "question_answering":{
+    "generate": {
+            "head_verbalizer": "Generate a background document to support or refute the following statement: ",
+            "verbalizer": "",
+            "tail_verbalizer": ""
+    },
+    "read": {
+            "head_verbalizer": "Refer to the passage given and answer the following question with just one entity. Passage: ",
+            "verbalizer": ". Question: ",
+            "tail_verbalizer": " The answer is ?"
+    }
+}
+}
