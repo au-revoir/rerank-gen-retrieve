@@ -210,3 +210,8 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 >>>>>>> 9e198acf3e808c45f14617b52868942f080a14b7
+
+*.swp
+*.swo
+*.swn
+*~
